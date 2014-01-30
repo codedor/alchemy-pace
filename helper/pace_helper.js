@@ -33,7 +33,7 @@ module.exports = function paceHelpers(hawkejs) {
 	 * @since         0.0.1
 	 * @version       0.0.1
 	 */
-	hawkejs.event.on('ajaxend', function StopPace() {
+	hawkejs.event.on('renderend', function StopPace() {
 
 		if (wait) {
 			clearTimeout(wait);
