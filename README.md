@@ -2,8 +2,8 @@
 * Author:  Jelle De Loecker (jelle@codedor.be)
 * http://www.codedor.be
 * license: MIT
-* version: 0.0.1
-* Pace version: 0.4.2
+* version: 1.0.0
+* Pace version: 1.0.0
 
 This plugin hooks Pace into your Alchemy/Hawkejs installation.
 

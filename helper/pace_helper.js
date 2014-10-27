@@ -1,3 +1,4 @@
+return;
 module.exports = function paceHelpers(hawkejs) {
 
 	var wait, restart;
