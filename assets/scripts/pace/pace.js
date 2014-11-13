@@ -14,7 +14,7 @@
 		easeFactor: 1.25,
 		startOnPageLoad: true,
 		restartOnPushState: true,
-		restartOnRequestAfter: 500,
+		restartOnRequestAfter: 100,
 		target: 'body',
 		elements: {
 			checkInterval: 100,
@@ -26,7 +26,7 @@
 			lagThreshold: 3
 		},
 		ajax: {
-			trackMethods: ['GET'],
+			trackMethods: ['GET', 'POST'],
 			trackWebSockets: true,
 			ignoreURLs: []
 		}
